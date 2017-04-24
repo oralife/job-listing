@@ -15,7 +15,48 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
+ @import "font-awesome";
 
  .navbar.default-menu{
-     background-color: #002E2E;
+   background-color: #002E2E;
  }
+
+ .default-menu.menu-4 .default-logo {
+   color: #fff;
+ }
+
+ .default-menu.menu-4 .navbar-nav > li > a{
+   color: #fff;
+ }
+
+ .default-menu.navbar-default .navbar-nav > li > a:hover{
+   color: #4A6BB5;
+ }
+
+ .btn.btn-default.navbar-btn{
+   margin-left: 20px;
+ }
+
+ .intro{
+    height: 650px;
+    background: image_url("intro.jpg") no-repeat scroll top center/ cover;
+}
+
+.intro-content > h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 55px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    word-spacing: 6px;
+}
+
+.intro-content > p {
+    color: #f8f8f8;
+    font-size: 18px;
+    font-weight: 300;
+    font-style: italic;
+    margin-bottom: 75px;
+}
