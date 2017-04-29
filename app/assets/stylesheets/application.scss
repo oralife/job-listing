@@ -21,7 +21,7 @@
 
 
 .navbar-default {
-    background-color: #212121;  //背景颜色
+    background-color: rgb(46,125,50);  //背景颜色
 
     border-color: #212121; //边框色
 
@@ -35,7 +35,7 @@
 }
 
 .navbar-default .navbar-brand {
- color: #EF6C00; //字体颜色
+ color: white; //字体颜色
 
  padding: 10px 15px; //上下10px，左右15px
  line-height: 30px; //文字行高
@@ -49,7 +49,7 @@
 }
 
 .navbar-default .navbar-nav > li > a{
-  color: #EF6C00;
+  color: white;
 
 }
 
@@ -85,16 +85,16 @@
 }
 
  .jumbotron {
-   background-image:url('http://fullstack-public.oss-cn-qingdao.aliyuncs.com/2017-04-15-542213.png');
+   background-image:url('cbak.jpg');
    background-repeat: no-repeat;
-   background-size: cover;
+   background-size: 100% 100%;
    padding-bottom: 110px;
  }
 
  .title {
      background-color: rgba(250, 250, 250, 0.39);//背景颜色含透明度
      max-width: 500px;//最大宽度
-     margin-top: 200px;//和顶部拉开距离
+     margin-top: 0px;//和顶部拉开距离
      margin-bottom: 0;//这样就可以紧接息面的描述文字
      border-top-right-radius: 3px;//右上角圆边
      border-top-left-radius: 3px;//左上角圆边
@@ -114,11 +114,19 @@
    color: white;
  }
 
+
+ .lead .btn-danger {
+     background-color: rgb(56,142,60);//背景颜色
+     border-color:rgb(56,142,60);
+ }
+
  .caption {
   margin: 30px;
   text-align: center;
   top: 20px;
 }
+
+
 
 .thumbnail {
     border: 0 none;
@@ -149,19 +157,19 @@
 
  .jumbotron h1, .jumbotron .h1 {
      text-align: left;//文字左对齐
-     color: #222;  //字体颜色
-
-     padding: 50px 20px 0;//上50px，左右20px，下0
+     color: rgb(46,125,50);  //字体颜色
+     background-color: rgba(250, 250, 250, 1);//背景颜色含透明度
+     padding: 20px 20px 0;//上50px，左右20px，下0
  }
 
  .jumbotron p {
      margin: 0;//上下左右margin为0
      font-size: 26px;//字体大小
      max-width: 500px;//最大宽度
-     background-color: rgba(250, 250, 250, 0.39);//背景颜色含透明度
+     background-color: rgba(250, 250, 250, 1);//背景颜色含透明度
      padding: 20px;//上下左右padding为20px
      text-align:left;//文字左对齐
-     color: #222;//字体颜色
+     color: rgb(46,125,50);//字体颜色
 
      border-bottom-right-radius: 3px;//右下角圆边
      border-bottom-left-radius: 3px;//左下角圆边
