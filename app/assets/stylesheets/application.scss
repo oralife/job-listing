@@ -121,19 +121,23 @@
  }
 
  .caption {
-  margin: 30px;
   text-align: center;
-  top: 20px;
+  margin: 0px;
 }
 
-
+.caption h3 {
+ font-size: 18px;
+ margin: 0px;
+}
 
 .thumbnail {
     border: 0 none;
     box-shadow: none;
-    margin-top: 60px;
 }
 
+.thumbnail img{
+    border-color: white;
+}
 .custab{
   border: 1px solid #ccc;
 
@@ -209,13 +213,13 @@
   border-radius: 2px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  font-family: roboto;
+  font-family: "Microsoft YaHei";
 }
 
 .loginmodal-container h1 {
   text-align: center;
   font-size: 1.8em;
-  font-family: roboto;
+  font-family: "Microsoft YaHei";
 }
 
 .loginmodal-container input[type=submit] {
@@ -251,7 +255,7 @@
 .loginmodal {
   text-align: center;
   font-size: 14px;
-  font-family: 'Arial', sans-serif;
+  font-family: "Microsoft YaHei";
   font-weight: 700;
   height: 36px;
   padding: 0 8px;
@@ -267,7 +271,7 @@
   text-shadow: 0 1px rgba(0,0,0,0.1);
   background-color: #4d90fe;
   padding: 17px 0px;
-  font-family: roboto;
+  font-family: "Microsoft YaHei";
   font-size: 14px;
   /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
 }
