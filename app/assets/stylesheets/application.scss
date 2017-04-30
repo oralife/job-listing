@@ -119,12 +119,34 @@
   width: 100%;
   height: 200px;
   background-color: white;
+  color: rgb(46,125,50);
+}
+
+#jobdisplay .jobdisplaytitle {
+  margin-top:70px;
+  margin-left:70px;
+}
+
+#jobdisplay h3 {
+  margin-top:40px;
+
 }
 
 #employeedisplay {
   width: 100%;
-  height: 200px;
+  height: 350px;
   background-color: #E0E0E0;
+  color: rgb(46,125,50);
+}
+
+#employeedisplay .employeedisplaytitle {
+  margin-top:70px;
+  margin-left:70px;
+}
+
+#employeedisplay h3 {
+  margin-top:40px;
+
 }
 
  .lead .btn-danger {
